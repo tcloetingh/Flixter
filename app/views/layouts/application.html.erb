@@ -2,12 +2,12 @@
 <html>
   <head>
     <title>Flixter</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+      <%= csrf_meta_tags %>
+      <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link href="http://vjs.zencdn.net/5.12.6/video-js.css" rel="stylesheet">
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+      <link href="http://vjs.zencdn.net/5.12.6/video-js.css" rel="stylesheet">
   </head>
   <body>
     <div id="flex-content-container">
@@ -65,6 +65,7 @@
       <div class="col-12 col-sm-3">
         <b>Teachers</b>
         <br />
+        <br />
         <%= link_to 'Teach a Course', new_instructor_course_path %>
         <br />
         <%= link_to 'My Dashboard', dashboard_path %>
@@ -72,14 +73,16 @@
       <div class="col-12 col-sm-3">
         <b>About</b>
         <br />
-        <%= link_to 'Team', '#' %>
         <br />
-        <%= link_to 'Careers', '#' %>
+        <%= link_to 'Team', team_path %>
         <br />
-        <%= link_to 'Privacy Policy', '#' %>
+        <%= link_to 'Careers', careers_path %>
+        <br />
+        <%= link_to 'Privacy Policy', privacy_path %>
       </div>
       <div class="col-12 col-sm-3">
         <b>Contact</b>
+        <br />
         <br />
         tcloetingh@email.com
         <br />
@@ -92,7 +95,7 @@
         <br />
         <br />
         <%= link_to 'http://github.com/tylercloetingh' do %>
-          <span class="fab fa-github fa-2x socail-button"></span>
+          <span class="fab fa-github fa-2x social-button"></span>
         <% end %>
 
         <%= link_to 'http://twitter.com/tcloetingh' do %>
@@ -100,7 +103,7 @@
         <% end %>
 
           <span class="fab fa-facebook fa-2x social-button"></span>
-          
+
       </div>
     </div>
   </div>
