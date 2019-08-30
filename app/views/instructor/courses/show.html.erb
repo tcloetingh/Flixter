@@ -40,10 +40,11 @@
   <h1 class="text-center"><%= current_course.title %></h1>
      <%= image_tag current_course.image.to_s, class: 'img-fluid' %>
   <br />
-  <%= link_to 'Preview as Student...', course_path(current_course), class: 'btn btn-warning float-right' %>
+  <%= link_to 'Preview as Student', course_path(current_course), class: 'btn btn-warning float-right' %>
+  <br />
   <div class="text-center">
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newSectionModal">
+    <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#newSectionModal">
       Add a New Section
     </button>
   </div>
