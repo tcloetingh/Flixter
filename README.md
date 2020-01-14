@@ -1,24 +1,13 @@
-# README
+# Rails 5.2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* AWS picture and video uploading
 
-Things you may want to cover:
+* Layout with Bootstrap
 
-* Ruby version
+* jQuery / Javascript
 
-* System dependencies
+* PostgreSQL
 
-* Configuration
+* Devise authentication
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Nested Routes
